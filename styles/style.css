@@ -1,0 +1,156 @@
+.container text-center {
+    display: grid;
+}
+.row {
+    padding-left: 0em;
+    display: grid;
+    grid-template-columns: 15em 20em 30em 25em 15em;
+    grid-template-rows: 4em 7em 15em 15em 15em;
+}
+.col-0 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    margin-inline-start: 0em;
+    background-color: black;
+    height: 100em;
+    width: 15em;
+}
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: green;
+    border: 2px solid black;
+    background-color:lightgray;
+}
+.nav-link:visited {
+    color:white
+}
+.col-10 {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    flex-direction: row;
+     border-bottom: 1px solid black;
+     box-shadow: inset;
+     width: 100em;
+     height: 4em;
+     padding-left: 0em;
+     background-color: lightgray;
+}
+.display-6 {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: .3em;
+    width: 60em;
+    margin-top: .2em;
+}
+#heading {
+    height: 50px;
+    font-weight: 60px;
+    margin-left: 2em;
+    margin-right: none;
+    margin-top: .5em;
+    border-bottom: 50%;
+}
+#user-btn {
+    margin-left: 2em;
+    margin-top: .5em;
+    color: black;
+    background-color: white;
+    border: none;
+}
+#inside {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    border: 2px solid black;
+    height: 60em;
+    background-color: lightgray;
+}
+.card {
+    margin-top: 4em;
+    margin-left: 4em;
+    margin-right: 8em;
+    height: 40em;
+    border: 2px solid black;
+}
+.card-title {
+    display: flex;
+    justify-content: start;
+    margin-top: none;
+}
+#name-number {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.list-group-item2 {
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: underline;
+    color: black;
+    border: 1px solid white inherit;
+}
+#address {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#sms {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#save {
+    border-radius: 30px;
+    width: 6em;
+}
+#payment {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-top: 4em;
+    margin-left: auto;
+    border: 2px solid black;
+    width: 35em;
+    height: 20em;
+    background-color: whitesmoke;
+}
+#vehicles {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: auto;
+    border: 2px solid black;
+    width: 35em;
+    height: 20em;
+    background-color: whitesmoke;
+}
+#top {
+    display: flex;
+    flex-direction: row;
+}
+#bottom {
+    display: flex;
+    flex-direction: row;
+}
+#table {
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    height: 10em;
+    width: 30em;
+    margin-top: 3em;
+  }
